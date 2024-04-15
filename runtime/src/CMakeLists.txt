@@ -10,4 +10,6 @@ iree_setup_c_src_root(
   IMPLICIT_DEFS_TARGET iree_defs
 )
 
+add_subdirectory(Quidditch)
+set(IREE_EXTERNAL_HAL_DRIVERS "Quidditch")
 add_subdirectory(iree)
